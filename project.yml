@@ -10,4 +10,5 @@ targets:
     sources: [ChromaticCamera]
     settings:
       PRODUCT_BUNDLE_IDENTIFIER: com.ilyalevchenko.Chromatic
+      PRODUCT_NAME: ChromaticCamera
       INFOPLIST_FILE: ChromaticCamera/Info.plist

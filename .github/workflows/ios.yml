@@ -18,6 +18,7 @@ jobs:
       - name: Package unsigned IPA
         shell: bash
         run: |
+          test -f build/Build/Products/Release-iphoneos/ChromaticCamera.app/ChromaticCamera
           mkdir -p ipa/Payload
           cp -R build/Build/Products/Release-iphoneos/ChromaticCamera.app ipa/Payload/
           (cd ipa && zip -r ../ChromaticCamera-unsigned.ipa Payload)
