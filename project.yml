@@ -1,0 +1,12 @@
+name: ChromaticCamera
+options:
+  deploymentTarget:
+    iOS: "15.0"
+targets:
+  ChromaticCamera:
+    type: application
+    platform: iOS
+    sources: [ChromaticCamera]
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.ilyalevchenko.Chromatic
+      INFOPLIST_FILE: ChromaticCamera/Info.plist
